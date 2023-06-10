@@ -25,6 +25,7 @@
         "spatie/laravel-google-fonts": "^1.2",
         "spatie/laravel-googletagmanager": "^2.6",
         "spatie/opening-hours": "^2.13",
+        "spatie/schema-org": "^3.14",
         "spatie/sun": "^1.1"
     },
     "require-dev": {
