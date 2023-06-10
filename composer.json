@@ -19,7 +19,8 @@
         "livewire/livewire": "^2.11",
         "socialiteproviders/apple": "^5.5",
         "socialiteproviders/microsoft": "^4.2",
-        "spatie/icalendar-generator": "^2.5"
+        "spatie/icalendar-generator": "^2.5",
+        "spatie/sun": "^1.1"
     },
     "require-dev": {
         "barryvdh/laravel-ide-helper": "^2.13",
