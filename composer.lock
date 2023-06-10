@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c65a2d71da9b6dbe2ca02a2888e80ef0",
+    "content-hash": "f06c2f407f4c71ba0a7ad9005554fb2d",
     "packages": [
         {
             "name": "bacon/bacon-qr-code",
@@ -4975,6 +4975,72 @@
                 "source": "https://github.com/socialiteproviders/providers"
             },
             "time": "2023-03-02T09:58:36+00:00"
+        },
+        {
+            "name": "spatie/emoji",
+            "version": "4.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/spatie/emoji.git",
+                "reference": "aa9b01775ad3ff825914dab77f10fb8aa9aa297e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/spatie/emoji/zipball/aa9b01775ad3ff825914dab77f10fb8aa9aa297e",
+                "reference": "aa9b01775ad3ff825914dab77f10fb8aa9aa297e",
+                "shasum": ""
+            },
+            "require": {
+                "ext-mbstring": "*",
+                "php": "^7.2|^8.0"
+            },
+            "require-dev": {
+                "ext-iconv": "*",
+                "ext-json": "*",
+                "guzzlehttp/guzzle": "^7.0",
+                "phpunit/phpunit": "^9.4",
+                "symfony/console": "^4.2",
+                "twig/twig": "^2.7"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Spatie\\Emoji\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Freek Van der Herten",
+                    "email": "freek@spatie.be",
+                    "homepage": "https://spatie.be",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Display emoji characters",
+            "homepage": "https://github.com/spatie/emoji",
+            "keywords": [
+                "emoji",
+                "spatie"
+            ],
+            "support": {
+                "issues": "https://github.com/spatie/emoji/issues",
+                "source": "https://github.com/spatie/emoji/tree/4.0.0"
+            },
+            "funding": [
+                {
+                    "url": "https://spatie.be/open-source/support-us",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/spatie",
+                    "type": "github"
+                }
+            ],
+            "time": "2022-09-22T07:46:11+00:00"
         },
         {
             "name": "spatie/enum",
