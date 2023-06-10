@@ -18,6 +18,41 @@ Describe how to test your application.
 
 Describe how to deploy your application.
 
+## Packages
+
+This project use a lot of third party packages to help us build more easily and more securely the application.
+
+- [laravel/jetstream](https://jetstream.laravel.com/3.x/introduction.html)
+- [laravel/dusk](https://laravel.com/docs/10.x/dusk)
+- [laravel/horizon](https://laravel.com/docs/10.x/horizon)
+- [laravel/pennant](https://laravel.com/docs/10.x/pennant)
+- [laravel/pint](https://laravel.com/docs/10.x/pint)
+- [laravel/sanctum](https://laravel.com/docs/10.x/sanctum)
+- [laravel/socialite](https://laravel.com/docs/10.x/socialite)
+- [laravel/telescope](https://laravel.com/docs/10.x/telescope)
+- [joelbutcher/socialstream](https://github.com/joelbutcher/socialstream)
+- [pestphp/pest](https://github.com/pestphp/pest)
+- [nunomaduro/larastan](https://github.com/nunomaduro/larastan)
+- [nunomaduro/patrol](https://github.com/nunomaduro/patrol)
+- [nunomaduro/phpinsights](https://github.com/nunomaduro/phpinsights)
+- [nunomaduro/termwind](https://github.com/nunomaduro/termwind)
+- [itsgoingd/clockwork](https://github.com/itsgoingd/clockwork)
+- [barryvdh/laravel-ide-helper](https://github.com/barryvdh/laravel-ide-helper)
+- [spatie/icalendar-generator](https://github.com/spatie/icalendar-generator)
+- [spatie/sun](https://github.com/spatie/sun)
+- [spatie/opening-hours](https://github.com/spatie/opening-hours)
+- [spatie/laravel-csp](https://github.com/spatie/laravel-csp)
+- [spatie/laravel-google-fonts](https://github.com/spatie/laravel-google-fonts)
+- [spatie/laravel-googletagmanager](https://github.com/spatie/laravel-googletagmanager)
+- [spatie/schema-org](https://github.com/spatie/schema-org)
+- [spatie/laravel-sitemap](https://github.com/spatie/laravel-sitemap)
+- [spatie/emoji](https://github.com/spatie/emoji)
+- [spatie/db-dumper](https://github.com/spatie/db-dumper)
+- [spatie/laravel-backup](https://github.com/spatie/laravel-backup)
+- [spatie/laravel-activitylog](https://github.com/spatie/laravel-activitylog)
+- [spatie/browsershot](https://github.com/spatie/browsershot)
+- [SpartnerNL/Laravel-Excel](https://github.com/SpartnerNL/Laravel-Excel)
+
 ## Changelog
 
 Please see [CHANGELOG](CHANGELOG.md) for more information on what has changed recently.
