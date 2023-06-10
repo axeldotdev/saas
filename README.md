@@ -59,6 +59,7 @@ This project use a lot of third party packages to help us build more easily and 
 - [blade-ui-kit/blade-ui-kit](https://github.com/blade-ui-kit/blade-ui-kit)
 - [blade-ui-kit/blade-icons](https://github.com/blade-ui-kit/blade-icons)
 - [Sammyjo20/Saloon](https://github.com/Sammyjo20/Saloon)
+- [zanysoft/laravel-zip](https://github.com/zanysoft/laravel-zip)
 
 ## Changelog
 

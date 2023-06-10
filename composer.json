@@ -41,7 +41,8 @@
         "spatie/laravel-sitemap": "^6.3",
         "spatie/opening-hours": "^2.13",
         "spatie/schema-org": "^3.14",
-        "spatie/sun": "^1.1"
+        "spatie/sun": "^1.1",
+        "zanysoft/laravel-zip": "^2.0"
     },
     "require-dev": {
         "barryvdh/laravel-ide-helper": "^2.13",
