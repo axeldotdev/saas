@@ -1,9 +1,9 @@
 {
-    "name": "laravel/laravel",
+    "name": "saas/saas",
     "type": "project",
-    "description": "The skeleton application for the Laravel framework.",
-    "keywords": ["laravel", "framework"],
-    "license": "MIT",
+    "description": "The skeleton application for the SaaS project.",
+    "keywords": ["saas", "application"],
+    "license": "proprietary",
     "require": {
         "php": "^8.1",
         "guzzlehttp/guzzle": "^7.2",
