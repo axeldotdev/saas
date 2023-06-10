@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use Spatie\Health\Http\Controllers\HealthCheckResultsController;
 
 /*
 |--------------------------------------------------------------------------
@@ -21,6 +22,9 @@ Route::middleware([
     'verified',
 ])->group(function () {
     Route::impersonate();
+
+    Route::get('tools/health', HealthCheckResultsController::class)
+        ->can('viewHealth');
 
     Route::view('/dashboard', 'dashboard')->name('dashboard');
 });
