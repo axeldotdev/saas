@@ -22,6 +22,7 @@
         "spatie/db-dumper": "^3.3",
         "spatie/emoji": "^4.0",
         "spatie/icalendar-generator": "^2.5",
+        "spatie/laravel-activitylog": "^4.7",
         "spatie/laravel-csp": "^2.8",
         "spatie/laravel-google-fonts": "^1.2",
         "spatie/laravel-googletagmanager": "^2.6",
