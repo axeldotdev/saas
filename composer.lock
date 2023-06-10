@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "5db508c400d9270bb750e18aec2f8c45",
+    "content-hash": "17b4f6686a3d347a38999396bf8d9199",
     "packages": [
         {
             "name": "bacon/bacon-qr-code",
@@ -1483,6 +1483,61 @@
                 }
             ],
             "time": "2021-10-07T12:57:01+00:00"
+        },
+        {
+            "name": "hammerstone/flaky",
+            "version": "v0.1.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/hammerstonedev/flaky.git",
+                "reference": "5548502ed44b086174d95257bc5c04ae7f8a6cb4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/hammerstonedev/flaky/zipball/5548502ed44b086174d95257bc5c04ae7f8a6cb4",
+                "reference": "5548502ed44b086174d95257bc5c04ae7f8a6cb4",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/cache": "^8.0|^9.0|^10",
+                "illuminate/console": "^8.0|^9.0|^10",
+                "illuminate/support": "^8.0|^9.0|^10",
+                "php": "^8.0"
+            },
+            "require-dev": {
+                "mockery/mockery": "^1.3.3",
+                "orchestra/testbench": "^6.0|^7.0|^8.0",
+                "phpunit/phpunit": ">=8.5.23|^9"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Hammerstone\\Flaky\\Providers\\FlakyServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Hammerstone\\Flaky\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Aaron Francis",
+                    "email": "aaron@hammerstone.dev"
+                }
+            ],
+            "description": "A Laravel package to elegantly handle flaky operations.",
+            "support": {
+                "issues": "https://github.com/hammerstonedev/flaky/issues",
+                "source": "https://github.com/hammerstonedev/flaky/tree/v0.1.5"
+            },
+            "time": "2023-03-11T19:04:33+00:00"
         },
         {
             "name": "intervention/image",

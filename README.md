@@ -54,6 +54,7 @@ This project use a lot of third party packages to help us build more easily and 
 - [SpartnerNL/Laravel-Excel](https://github.com/SpartnerNL/Laravel-Excel)
 - [spatie/laravel-blade-comments](https://github.com/spatie/laravel-blade-comments)
 - [koenhendriks/laravel-str-acronym](https://github.com/koenhendriks/laravel-str-acronym)
+- [hammerstonedev/flaky](https://github.com/hammerstonedev/flaky)
 
 ## Changelog
 
