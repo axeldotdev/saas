@@ -22,6 +22,7 @@
         "spatie/icalendar-generator": "^2.5",
         "spatie/laravel-csp": "^2.8",
         "spatie/laravel-google-fonts": "^1.2",
+        "spatie/opening-hours": "^2.13",
         "spatie/sun": "^1.1"
     },
     "require-dev": {
