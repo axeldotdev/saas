@@ -20,6 +20,7 @@
         "socialiteproviders/apple": "^5.5",
         "socialiteproviders/microsoft": "^4.2",
         "spatie/icalendar-generator": "^2.5",
+        "spatie/laravel-csp": "^2.8",
         "spatie/laravel-google-fonts": "^1.2",
         "spatie/sun": "^1.1"
     },
