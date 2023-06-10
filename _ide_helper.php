@@ -19487,6 +19487,18 @@
      
 }
 
+    namespace Larswiegers\LaravelTranslationsChecker { 
+            /**
+     * 
+     *
+     * @see \Larswiegers\LaravelTranslationsChecker\Skeleton\SkeletonClass
+     */ 
+        class LaravelTranslationsCheckerFacade {
+         
+    }
+     
+}
+
     namespace Livewire { 
             /**
      * 
@@ -24575,6 +24587,7 @@ namespace  {
             class Horizon extends \Laravel\Horizon\Horizon {}
             class Feature extends \Laravel\Pennant\Feature {}
             class Socialite extends \Laravel\Socialite\Facades\Socialite {}
+            class LaravelTranslationsChecker extends \Larswiegers\LaravelTranslationsChecker\LaravelTranslationsCheckerFacade {}
             class Livewire extends \Livewire\Livewire {}
             class GoogleTagManager extends \Spatie\GoogleTagManager\GoogleTagManagerFacade {}
             class Flare extends \Spatie\LaravelIgnition\Facades\Flare {}
