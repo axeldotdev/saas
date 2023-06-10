@@ -62,6 +62,7 @@ This project use a lot of third party packages to help us build more easily and 
 - [zanysoft/laravel-zip](https://github.com/zanysoft/laravel-zip)
 - [doctrine/dbal](https://github.com/doctrine/dbal)
 - [lab404/laravel-impersonate](https://github.com/lab404/laravel-impersonate)
+- [opcodesio/log-viewer](https://github.com/opcodesio/log-viewer)
 
 ## Changelog
 
