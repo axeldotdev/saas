@@ -16,8 +16,12 @@
 
         <!-- Styles -->
         @livewireStyles
+
+        @include('googletagmanager::head')
     </head>
     <body class="font-sans antialiased">
+        @include('googletagmanager::body')
+
         <x-banner />
 
         <div class="min-h-screen bg-gray-100">

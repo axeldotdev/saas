@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ab27656aa07e7f60759c1d1fbe678ac5",
+    "content-hash": "c65a2d71da9b6dbe2ca02a2888e80ef0",
     "packages": [
         {
             "name": "bacon/bacon-qr-code",
@@ -5273,6 +5273,74 @@
                 }
             ],
             "time": "2023-01-24T23:50:49+00:00"
+        },
+        {
+            "name": "spatie/laravel-googletagmanager",
+            "version": "2.6.6",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/spatie/laravel-googletagmanager.git",
+                "reference": "19f257e203c0a3547328f142acf31a99ad895378"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/spatie/laravel-googletagmanager/zipball/19f257e203c0a3547328f142acf31a99ad895378",
+                "reference": "19f257e203c0a3547328f142acf31a99ad895378",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0-dev"
+                },
+                "laravel": {
+                    "providers": [
+                        "Spatie\\GoogleTagManager\\GoogleTagManagerServiceProvider"
+                    ],
+                    "aliases": {
+                        "GoogleTagManager": "Spatie\\GoogleTagManager\\GoogleTagManagerFacade"
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Spatie\\GoogleTagManager\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Sebastian De Deyne",
+                    "email": "sebastian@spatie.be",
+                    "homepage": "https://spatie.be",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Google Tag Manager integration for Laravel",
+            "homepage": "https://github.com/spatie/laravel-googletagmanager",
+            "keywords": [
+                "Google Tag Manager",
+                "laravel",
+                "laravel-googletagmanager",
+                "spatie"
+            ],
+            "support": {
+                "issues": "https://github.com/spatie/laravel-googletagmanager/issues",
+                "source": "https://github.com/spatie/laravel-googletagmanager/tree/2.6.6"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/spatie",
+                    "type": "github"
+                }
+            ],
+            "time": "2021-12-15T10:28:22+00:00"
         },
         {
             "name": "spatie/laravel-package-tools",
