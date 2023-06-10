@@ -17,6 +17,7 @@
         "laravel/telescope": "^4.14",
         "laravel/tinker": "^2.8",
         "livewire/livewire": "^2.11",
+        "nunomaduro/termwind": "^1.15",
         "socialiteproviders/apple": "^5.5",
         "socialiteproviders/microsoft": "^4.2",
         "spatie/browsershot": "^3.57",
