@@ -22,7 +22,7 @@ class CreateConnectedAccount implements CreatesConnectedAccounts
             'nickname' => $providerUser->getNickname(),
             'email' => $providerUser->getEmail(),
             'avatar_path' => $providerUser->getAvatar(),
-            'token' => $providerUser->token,
+            'token' => $providerUser->token ?? null,
             'secret' => $providerUser->tokenSecret ?? null,
             'refresh_token' => $providerUser->refreshToken ?? null,
             'expires_at' => property_exists($providerUser, 'expiresIn') ? now()->addSeconds($providerUser->expiresIn) : null,

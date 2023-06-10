@@ -24,7 +24,9 @@ class UpdateUserProfileInformation implements UpdatesUserProfileInformation
         ])->validateWithBag('updateProfileInformation');
 
         if (isset($input['photo'])) {
-            $user->updateProfilePhoto($input['photo']);
+            /** @var \Illuminate\Http\UploadedFile */
+            $photo = $input['photo'];
+            $user->updateProfilePhoto($photo);
         }
 
         if ($input['email'] !== $user->email &&

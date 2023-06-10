@@ -9,28 +9,13 @@ use JoelButcher\Socialstream\Events\ConnectedAccountCreated;
 use JoelButcher\Socialstream\Events\ConnectedAccountDeleted;
 use JoelButcher\Socialstream\Events\ConnectedAccountUpdated;
 
+/**
+ * @mixin IdeHelperConnectedAccount
+ */
 class ConnectedAccount extends SocialstreamConnectedAccount
 {
     use HasFactory;
     use HasTimestamps;
-
-    /**
-     * The attributes that are mass assignable.
-     *
-     * @var array
-     */
-    protected $fillable = [
-        'provider',
-        'provider_id',
-        'name',
-        'nickname',
-        'email',
-        'avatar_path',
-        'token',
-        'secret',
-        'refresh_token',
-        'expires_at',
-    ];
 
     /**
      * The event map for the model.
