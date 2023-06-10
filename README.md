@@ -64,6 +64,7 @@ This project use a lot of third party packages to help us build more easily and 
 - [lab404/laravel-impersonate](https://github.com/lab404/laravel-impersonate)
 - [opcodesio/log-viewer](https://github.com/opcodesio/log-viewer)
 - [spatie/laravel-health](https://github.com/spatie/laravel-health)
+- [laravel-lang/lang](https://github.com/laravel-lang/lang)
 
 ## Changelog
 
