@@ -60,6 +60,8 @@ This project use a lot of third party packages to help us build more easily and 
 - [blade-ui-kit/blade-icons](https://github.com/blade-ui-kit/blade-icons)
 - [Sammyjo20/Saloon](https://github.com/Sammyjo20/Saloon)
 - [zanysoft/laravel-zip](https://github.com/zanysoft/laravel-zip)
+- [doctrine/dbal](https://github.com/doctrine/dbal)
+- [lab404/laravel-impersonate](https://github.com/lab404/laravel-impersonate)
 
 ## Changelog
 

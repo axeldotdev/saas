@@ -20,5 +20,7 @@ Route::middleware([
     config('jetstream.auth_session'),
     'verified',
 ])->group(function () {
+    Route::impersonate();
+
     Route::view('/dashboard', 'dashboard')->name('dashboard');
 });
