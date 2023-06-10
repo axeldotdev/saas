@@ -43,6 +43,7 @@
         "nunomaduro/collision": "^7.0",
         "nunomaduro/larastan": "^2.6",
         "nunomaduro/patrol": "^1.1",
+        "nunomaduro/phpinsights": "^2.8",
         "pestphp/pest": "^2.0",
         "pestphp/pest-plugin-laravel": "^2.0",
         "spatie/laravel-ignition": "^2.0"
@@ -87,7 +88,8 @@
         "sort-packages": true,
         "allow-plugins": {
             "pestphp/pest-plugin": true,
-            "php-http/discovery": true
+            "php-http/discovery": true,
+            "dealerdirect/phpcodesniffer-composer-installer": true
         }
     },
     "minimum-stability": "stable",
