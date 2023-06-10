@@ -19,6 +19,7 @@
         "livewire/livewire": "^2.11",
         "socialiteproviders/apple": "^5.5",
         "socialiteproviders/microsoft": "^4.2",
+        "spatie/browsershot": "^3.57",
         "spatie/db-dumper": "^3.3",
         "spatie/emoji": "^4.0",
         "spatie/icalendar-generator": "^2.5",
