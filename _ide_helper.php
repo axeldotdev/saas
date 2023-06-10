@@ -18275,6 +18275,36 @@
      *
      */ 
         class Str {
+                    /**
+         * 
+         *
+         * @see \KoenHendriks\StrAcronym\StrServiceProvider::boot()
+         * @param mixed $string
+         * @param mixed $delimiter
+         * @static 
+         */ 
+        public static function acronym($string, $delimiter = '')
+        {
+                        return \Illuminate\Support\Str::acronym($string, $delimiter);
+        }
+         
+    }
+            /**
+     * 
+     *
+     */ 
+        class Stringable {
+                    /**
+         * 
+         *
+         * @see \KoenHendriks\StrAcronym\StrServiceProvider::boot()
+         * @param string $delimiter
+         * @static 
+         */ 
+        public static function acronym($delimiter = '')
+        {
+                        return \Illuminate\Support\Stringable::acronym($delimiter);
+        }
          
     }
      

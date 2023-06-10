@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "82b76af8851465f504ccf9e325f3bf34",
+    "content-hash": "5db508c400d9270bb750e18aec2f8c45",
     "packages": [
         {
             "name": "bacon/bacon-qr-code",
@@ -1857,6 +1857,66 @@
                 }
             ],
             "time": "2023-05-17T09:23:53+00:00"
+        },
+        {
+            "name": "koenhendriks/laravel-str-acronym",
+            "version": "1.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/koenhendriks/laravel-str-acronym.git",
+                "reference": "b507d47a0164f7d0d2367b61fc597abef144797c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/koenhendriks/laravel-str-acronym/zipball/b507d47a0164f7d0d2367b61fc597abef144797c",
+                "reference": "b507d47a0164f7d0d2367b61fc597abef144797c",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/support": "^10.5"
+            },
+            "require-dev": {
+                "orchestra/testbench": "^8.1",
+                "phpunit/phpunit": "^10.0"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "KoenHendriks\\StrAcronym\\StrServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "KoenHendriks\\StrAcronym\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Koen Hendriks",
+                    "email": "info@koenhendriks.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "A package to be able to generate acronyms from strings in Laravel projects using the Str helper and supports the Stringable class.",
+            "homepage": "https://github.com/koenhendriks/laravel-str-acronym",
+            "keywords": [
+                "acronym",
+                "koenhendriks",
+                "laravel",
+                "laravel-str-acronym",
+                "str-acronym"
+            ],
+            "support": {
+                "issues": "https://github.com/koenhendriks/laravel-str-acronym/issues",
+                "source": "https://github.com/koenhendriks/laravel-str-acronym/tree/1.0.2"
+            },
+            "time": "2023-04-09T18:38:20+00:00"
         },
         {
             "name": "laravel/fortify",

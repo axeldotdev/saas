@@ -9,6 +9,7 @@
         "guzzlehttp/guzzle": "^7.2",
         "itsgoingd/clockwork": "^5.1",
         "joelbutcher/socialstream": "^4.1",
+        "koenhendriks/laravel-str-acronym": "^1.0",
         "laravel/framework": "^10.10",
         "laravel/horizon": "^5.16",
         "laravel/jetstream": "^3.2",
