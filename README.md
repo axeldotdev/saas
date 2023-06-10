@@ -56,6 +56,8 @@ This project use a lot of third party packages to help us build more easily and 
 - [koenhendriks/laravel-str-acronym](https://github.com/koenhendriks/laravel-str-acronym)
 - [hammerstonedev/flaky](https://github.com/hammerstonedev/flaky)
 - [LarsWiegers/laravel-translations-checker](https://github.com/LarsWiegers/laravel-translations-checker)
+- [blade-ui-kit/blade-ui-kit](https://github.com/blade-ui-kit/blade-ui-kit)
+- [blade-ui-kit/blade-icons](https://github.com/blade-ui-kit/blade-icons)
 
 ## Changelog
 
