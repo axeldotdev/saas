@@ -76,7 +76,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## Security Vulnerabilities
 
-Please review [our security policy](https://gitlab.com/ayctor/outils-cse/outils-cse-app/-/blob/master/SECURITY.md) on how to report security vulnerabilities.
+Please review [our security policy](SECURITY.md) on how to report security vulnerabilities.
 
 ## Contributions
 
